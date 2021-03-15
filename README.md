@@ -1,22 +1,19 @@
-## Requirements
+## How to run.
 
-| Name | Version |
-|------|---------|
-| aws | ~> 2.0 |
+This script will create an S3 bucket for static hosting and which will get mapped to cloudfront for seamless content delivery.
 
-## Providers
+update the access key and secret key before running script.
 
-| Name | Version |
-|------|---------|
-| aws | ~> 2.0 |
+## Command to install
+
+terraform init
+terraform apply
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | bucket | Name of the s3 bucket to be created. | `string` | n/a | yes |
-| region | Name of the s3 bucket to be created. | `string` | `"us-east-1"` | no |
+| region | Region where s3 bucket to be created. | `string` | `"us-east-1"` | no |
 
-## Outputs
 
-No output.
