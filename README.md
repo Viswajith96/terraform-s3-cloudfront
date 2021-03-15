@@ -6,8 +6,7 @@ update the access key and secret key before running script.
 
 ## Command to install
 
-terraform init
-terraform apply
+terraform init && terraform apply
 
 ## Inputs
 
