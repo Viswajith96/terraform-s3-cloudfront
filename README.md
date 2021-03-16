@@ -15,4 +15,6 @@ terraform init && terraform apply
 | bucket | Name of the s3 bucket to be created. | `string` | n/a | yes |
 | region | Region where s3 bucket to be created. | `string` | `"us-east-1"` | no |
 
+## tested and verified
 
+test instance :: http://test20210315175209553100000001.s3-website-us-east-1.amazonaws.com/viswajith/
